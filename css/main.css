@@ -1,94 +1,89 @@
-.logo-container{
-  width: 20%;
-  margin: 0 auto;
-}
-
 .header{
-  background-color: #EDEDED
+  width: 100%;
+  margin: 0 auto;
+  background-color: #EDEDED;
+  height: 250px;
+}
+
+.logo-container{
+  text-align: center;
+  margin-top: 45px;
 }
 
 .header h1{
   text-align: center;
+  font-size: 45px;
 }
-logo-container img{
+
+.logo-container img{
   max-width: 100%;
+  height: 80px;
+
 }
 
 .founded{
   text-align: center;
+  max-width: 80%;
+  padding-top: 20px;
+  padding-bottom: 25px;
 }
 
-
-
-/*img{
-  max-width: 100%;
+h3{
+  font-size: 25px;
 }
 
-.header img{
-  position: relative;
-  top: 60px;
-}
-
-.header h1{
-  position: relative;
-  top: 90px;
-  font-size: 50px;
-  text-align: center;
-  padding: 0;
-}
-
-.founded{
-  position: relative;
-  top: 120px;
-}
-
-.founded p{
-  width: 450px;
-  font-size: 23px;
-  left: 20px;
-  text-align: center;
-}
-
-.recent-bike-photos{
-  position: relative;
-  top: 150px;
+.bike-pics{
+  width: 100%;
   font-size: 0;
 }
 
-.recent-bike-photos img{
-  padding: 0;
-  height: 280px;
+img{
+  /*height: 200px;*/
+  max-width: 100%;
+}
+
+.no-gutter{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.no-gutter [class*='col-']:not(:first-child),
+.no-gutter [class*='col-']:not(last-child){
+  padding-right: 0;
+  padding-left: 0;
 }
 
 .say-hello{
-  position: relative;
-  top: 200px;
-  font-size: 27px;
-  text-align: center;
+  margin-top: 25px;
+  width: 100%;
 }
 
-.contact-info{
-  position: relative;
-  top: 230px;
+.say-hello p{
   font-size: 28px;
   text-align: center;
 }
 
-.contact-info span:nth-child(2){
+.contact-info p{
   margin-top: 20px;
+  text-align: center;
+  font-size: 30px;
 }
 
-.contact-info span:nth-child(3){
+.phone-number{
   margin-top: 20px;
+  text-align: center;
+  font-size: 30px;
   font-weight: bold;
 }
 
-.licensing{
-  position: relative;
-  top: 270px;
+.e-mail{
+  margin-top: 22px;
   text-align: center;
+  font-size: 25px;
 }
 
-.licensing span{
-  font-size: 28px;
-}*/
+.licensing{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 30px;
+}
