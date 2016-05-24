@@ -1,3 +1,29 @@
+.logo-container{
+  width: 20%;
+  margin: 0 auto;
+}
+
+.header{
+  background-color: #EDEDED
+}
+
+.header h1{
+  text-align: center;
+}
+logo-container img{
+  max-width: 100%;
+}
+
+.founded{
+  text-align: center;
+}
+
+
+
+/*img{
+  max-width: 100%;
+}
+
 .header img{
   position: relative;
   top: 60px;
@@ -65,4 +91,4 @@
 
 .licensing span{
   font-size: 28px;
-}
+}*/
